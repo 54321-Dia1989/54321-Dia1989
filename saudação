@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Saudação</title>
+</head>
+<body>
+  <h1 id="saudacao"></h1>
+
+  <script>
+    const nome = prompt("Qual é o seu nome?");
+    const saudacao = `Olá, ${nome}! Seja bem-vindo(a)!`;
+    document.getElementById("saudacao").textContent = saudacao;
+  </script>
+</body>
+</html>
